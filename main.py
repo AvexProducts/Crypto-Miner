@@ -37,7 +37,7 @@ if enter == "start":
         print("ORDER OF GETTING THINGS: ADVANCED CRYPTO MINER, LEGENDARY CRYPTO MINER, COMANY")
         print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         print("You can buy a 'advanced crypto miner' for 501 crypto just type 'advanced crypto miner' and a 'legendary crypto miner' for 1001 crypto just type 'legendary'. You can also sell your crypto for money, which you can flex on your friends! Just type 'money'! PLEASE GET A ADVANCED, THEN LEGENDARY CRYPTO MINER OR THE GAME WILL CRASH.")
-        print("There are also companies that you can but with money! Type 'company' to take the first crypto company! The price is $100001!!!")
+        print("There are also companies that you can but with money! Type 'company' to take the first crypto company! The price is $10001!!!")
         print("Click 'ENTER' to start mining!")
         crypto = input("PRESS ENTER: ")
         if crypto == "advanced crypto miner":
@@ -75,13 +75,13 @@ if enter == "start":
             time.sleep(2)
             continue
         elif crypto == "company":
-            if money < 100000:
+            if money < 10000:
                 print("Not enough money.")
                 time.sleep(2)
                 continue
             else:
                 print("BOUGHT!")
-                cryptomined = cryptomined - 100001
+                cryptomined = cryptomined - 10001
                 companies.append("Company Basic")
                 cryptominers.remove("Crypto Legendary Miner")
                 time.sleep(2)
