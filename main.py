@@ -81,7 +81,7 @@ if enter == "start":
                 continue
             else:
                 print("BOUGHT!")
-                cryptomined = cryptomined - 10001
+                money = money - 10001
                 companies.append("Company Basic")
                 cryptominers.remove("Crypto Legendary Miner")
                 time.sleep(2)
